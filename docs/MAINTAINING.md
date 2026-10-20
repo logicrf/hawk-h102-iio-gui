@@ -6,4 +6,4 @@ Write for customer tasks using natural English. Use installation, connection, su
 
 Develop functionality on main first. Record its exact revision in SOURCE-BASE.json, prepare only the approved file set and verify relevant behavior. Do not merge private development history into the English branch or mirror all refs to GitHub. Code, images, RTL IP, vendor tools and the full standalone GUI retain separate licensing and delivery scopes.
 
-This branch is documentation preparation only. It is not a complete buildable source export and is not synchronized to a new GitHub repository yet. Check every delivered text file, Markdown link and commit message before synchronization.
+The application source is now included. Keep Chinese text only in the explicit zh_CN locale resource; use English source comments, documentation and commits. Preserve saved language choices and the English first-launch default. Check exact source manifests, local API locks, installed-helper mappings, offline tests, Markdown links and commit messages before synchronization. Hardware campaign validators and sealed receipts remain in the internal repository.

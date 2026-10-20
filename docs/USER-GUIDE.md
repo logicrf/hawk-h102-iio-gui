@@ -2,13 +2,13 @@
 
 The LogicRF Hawk H102 IIO GUI is a Linux desktop application for device configuration, single/dual RX IQ, spectrum/waterfall display, center-frequency tuning, segmented sweeps, recording and explicit TX control. The interface supports English and Simplified Chinese.
 
-This branch currently contains English documentation and provenance. The application/source package is supplied separately; this branch is not a complete installable GUI distribution.
+This source package includes the desktop application and host-side helpers. Device services, firmware images and vendor SDKs are supplied separately.
 
 ## Connect
 
 Install the matching GUI package and host prerequisites, then enter the H102 IP. Ordinary operation requires no Linux username or SSH password. An administrator must install the matching device-control services first.
 
-Use the language selector in the title bar for English. The selection is remembered without reconnecting. A supported command-line launch can select English for one session with `--language en`.
+English is the first-launch default. Use the title-bar language selector to choose English or Simplified Chinese. The selection is remembered without reconnecting. A supported command-line launch can select English for one session with `--language en`.
 
 ## Receive
 
@@ -35,4 +35,4 @@ TX control uses explicitly prepared cyclic IQ for the supported GUI path, not un
 - Unsupported profile/rate: select an installed profile within the aggregate 64 MB/s Ethernet IQ16 budget.
 - Recording failure: keep partial data and inspect the error; do not rename partial files to mark them complete.
 
-Release-specific hardware/RF limits and exact matching software are documented with the supplied package. Documentation preparation does not add new device qualification.
+Release-specific hardware/RF limits and exact matching software are documented with the supplied package. This English source delivery does not add new device qualification.

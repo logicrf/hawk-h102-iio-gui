@@ -4,10 +4,15 @@
   "development_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
   "delivery_branch": "github-en",
   "language": "English",
-  "status": "DOCUMENTATION_PREPARATION_ONLY",
-  "full_source_export": false,
+  "status": "OFFLINE_VERIFIED_ENGLISH_SOURCE",
+  "full_source_export": true,
   "github_synchronized": false,
   "firmware_modified": false,
-  "release_version": "unknown",
-  "source_notice": "Customer documentation rewritten from the development source; firmware/code redistribution scope remains separate"
+  "release_version": "0.8.0-source-en-r1",
+  "source_notice": "Reviewed standalone host GUI export; device services and vendor SDKs remain separate",
+  "default_language": "en",
+  "supported_languages": [
+    "en",
+    "zh_CN"
+  ]
 }

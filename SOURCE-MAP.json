@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "development_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+  "original_export_files": {
+    ".gitignore": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "17e1b84d4879f83f2f052b1aa7a41a98a4c4568db1db52032f225e9896c17261",
+      "source_blob": "60449e545ce754827c85d81b0b3a9651d55c9d0d",
+      "mode": "100644"
+    },
+    "assets/brand/logicrf-logo.svg": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "a14e54718cfdd68dfaf9162cb0a7ccea41aa357c7c26a70de90b0983c7388749",
+      "source_blob": "00a281a89237c6b5ec9769b2ee9d16cc8b77895a",
+      "mode": "100644"
+    },
+    "docs/h102-control-api.lock.json": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "1666e0c075e34a184ce9e678bda6594be5ca75d8c21a095bc02260e4f023d3de",
+      "source_blob": "fdabaa5f6f0a11a2bad9462c062946606a9b2e44",
+      "mode": "100644"
+    },
+    "h102_control/__init__.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "9d333bcf17569550aa340a2d001202fe12d1dee34fa6c1e31066396067fd8430",
+      "source_blob": "120ed528eb36e2eb94a25bf36ec06e3f41ff1e7d",
+      "mode": "100644"
+    },
+    "h102_control/channel.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "fb8df410d41e54e9dd512dfa4c918aef1c9d4d48a5152ae1d87d916186d5b95f",
+      "source_blob": "93ee5dc24c2b418b8d5ef429ee4b41a4df353fdc",
+      "mode": "100644"
+    },
+    "h102_control/client.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "3d15c16fd5647c5afbec6d1d9f40c004f74c619b5d0f81a16609e39b70dee911",
+      "source_blob": "7abf4f08c7b6836139edd6460be6d9e00eb3f6f5",
+      "mode": "100644"
+    },
+    "h102_control/compat.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "c7655b945ed02b4a146ace8a0cf8cc1afdae7045fb21ef063ec9023e6e133da0",
+      "source_blob": "896f092ebe0e568624fbaa9e583a28680ecc7c58",
+      "mode": "100644"
+    },
+    "h102_control/protocol.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "42c1eaba2b23833b9aa1452482f674deb080ac92821d8b6adf94fc48e378e459",
+      "source_blob": "9b9b776854ac5807cd21cca5e304e859a1de8780",
+      "mode": "100644"
+    },
+    "h102_iio_demo/__init__.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "1fad47fb54b5988c977cdc10b31ea98203f3e2daced76f38427733100f9bd838",
+      "source_blob": "2ddb44fbf980cfebbe66554579b66d1a61d245a2",
+      "mode": "100644"
+    },
+    "h102_iio_demo/__main__.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "e100cd5a0f779d4e661df6fd1a566f8418af0929603ee7f3e0c8280de5470547",
+      "source_blob": "38da9393878c25159e6af6afa88fdc263c1f2b21",
+      "mode": "100644"
+    },
+    "h102_iio_demo/backend.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "13408c8819df244827f7b6db53ef6c2a606a083ef6150ac529d74ca364aaee66",
+      "source_blob": "c3af2251ed8eb2b493b1a923505e16ef9eb41fc8",
+      "mode": "100644"
+    },
+    "h102_iio_demo/board_capture.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "d1f30333f8fe58734396a22ed3040287a08aaaa0eca8d3ae3dd387b59eaa7360",
+      "source_blob": "6a4330c41ad69f40f33933ae011f4dd5ab76741d",
+      "mode": "100644"
+    },
+    "h102_iio_demo/board_radio.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "fd5dec1a90f33177f5cd2230a4fc6572c155fec8292eaa9f86040c8c082e0e33",
+      "source_blob": "b0f605b9420fa10d276df00fc1fa00117aa3bdc8",
+      "mode": "100644"
+    },
+    "h102_iio_demo/board_session.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "df4ca96578cde57692f0e5500a529e21d9b97a43d37b577b24284960bf8487d8",
+      "source_blob": "20554ebe2345cd5b93b308a6327a9bd6c32983df",
+      "mode": "100644"
+    },
+    "h102_iio_demo/board_tx.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "ae2e1a352e77643e5f583690ca573b2dfca9952eb55e8b2f310522adea7f290b",
+      "source_blob": "b3a05f8264a44ff82b1868d9fa2a5eeb7fae1244",
+      "mode": "100644"
+    },
+    "h102_iio_demo/gui.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "3b0a0254c0a863564a1514abcac57079b3a34a2e0a5d6f2de37564556219fe7f",
+      "source_blob": "e2fcadddbcd2af60a0741551c0c622a699061651",
+      "mode": "100644"
+    },
+    "h102_iio_demo/i18n.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "561029de33845217276c8627ffd860446acc6edc25d86a4cc8cf0163a602b066",
+      "source_blob": "2639496ca16a9839357917dbb960f6dbfa8ad19f",
+      "mode": "100644"
+    },
+    "h102_iio_demo/instrument_widgets.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "cac54655cc1a8d7832fa11720d112bc55d2d7adf383ea41df8190b11a971e6ad",
+      "source_blob": "a37933f90983e64ec57f7a8b0f5277357e4a0ce9",
+      "mode": "100644"
+    },
+    "h102_iio_demo/model.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "98a3a63abb2c19ec96e7a10fa07315858e383eddd67f44469317c83dc7e2cb94",
+      "source_blob": "8d8fe2f99a66afbe104e979bdc7002139d84854b",
+      "mode": "100644"
+    },
+    "h102_iio_demo/preset_modes.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "cdf7c08c813955201c4d76f2ea7bd487e10abe7455060c52d958225695a2cb02",
+      "source_blob": "0448cdb031d961c691109bb52fa6b1336a76426c",
+      "mode": "100644"
+    },
+    "h102_iio_demo/recorder.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "c7f6537eb86640214a883795a97f9539e0dd02a22591eb02de82d98a8d33942f",
+      "source_blob": "da49e2e6a2303a4f145bf937a1009d3adf9eba9c",
+      "mode": "100644"
+    },
+    "h102_iio_demo/session_link.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "1b76a9b513b346c5b9a7dd9ffbbd1237a8cd316c2aeb882c99cb0bb4e28efca6",
+      "source_blob": "23acc8527ea524e7ae5f6128dccbc9b18c6c73fd",
+      "mode": "100644"
+    },
+    "h102_iio_demo/sweep.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "3d8823984cb1ca3da37c67277b1a373d504e78dfe7f7282149eca5d03af226f9",
+      "source_blob": "0119ce1f96f9c348a7e71966bc8ae8a82372a9a8",
+      "mode": "100644"
+    },
+    "h102_iio_demo/translations/en.json": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "dee764650a5d66aa52e058055571ea358bfefd65399a580de0e24265c4ee9126",
+      "source_blob": "bf7b4884c3cdc3432c8286e64650faa4da7bd272",
+      "mode": "100644"
+    },
+    "h102_iio_demo/tx_backend.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "21930a5ddee35964d33251ce863b04cf1c5f28d056a5dc6fc8498cc238762caf",
+      "source_blob": "b6b78749e397d7fb28b33e065f83f2aede765ccb",
+      "mode": "100644"
+    },
+    "h102_iio_demo/tx_cyclic.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "c2db6ed391c2c0df40ecdddbf936e70916b0a7bfeed1a85bed7616853304764d",
+      "source_blob": "51eafd5af9dae2d2d7d5e7461841eb73f208cb9a",
+      "mode": "100644"
+    },
+    "h102_iio_demo/tx_model.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "2d6dc3b1cbdc182fc3cd31eec1e5ac55e86f305b27b3119578c63a93c4e09361",
+      "source_blob": "fe1a190924ce4437d9183c6c304ca1ee82a3af50",
+      "mode": "100644"
+    },
+    "h102_iio_demo/tx_panel.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "8e10e203d03715856c5e093dc6934bf8f4eeb23f168fac6bed854cb56b007ec8",
+      "source_blob": "7aa23a0a56d89cfda928da8f9d4a6d8aee01e7a6",
+      "mode": "100644"
+    },
+    "h102_iio_demo/window_chrome.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "d56233ef84fd682c005f11a8f70d312016e66becdb2398c374cc39a907991d62",
+      "source_blob": "373fe4e56e5db28f9f60952a35fdac9054fd7a8b",
+      "mode": "100644"
+    },
+    "launch.sh": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "d97d4485ef6e8a761210bd9a00d29c6ef8980c89a157b21eb8b7fd8ee9b2a338",
+      "source_blob": "fb4d64a7d5df7fdeb93496956289a60fda96a412",
+      "mode": "100755"
+    },
+    "requirements.lock": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "81fec2db9e1862033522fa38007cbb5459e6c7b9d051411b6649e90b303ce2a6",
+      "source_blob": "ee4f0262e740176fef2bee11223938a97fe34479",
+      "mode": "100644"
+    },
+    "requirements.txt": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "6e5e300014578a965fbeea052fd5598b159c11360abc1d19f6691e98f31941dd",
+      "source_blob": "652d521c98191e6ef143b5a2840dd833bd005ca8",
+      "mode": "100644"
+    },
+    "scripts/h102_iio_finite.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "58e5f6b32a49e4fa742642122977a59e0f61da6dd561f723abdc8bb60ca35164",
+      "source_blob": "b7f78cc4d6955c006e8aeb641f350608e2e2bfb0",
+      "mode": "100644"
+    },
+    "scripts/h102_iio_rx_continuous.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "242514c9c7f3cd5288edaeb603860b65337cba532e2869b00b34a6badd36fd59",
+      "source_blob": "1b7f50e69b21edba4bc1bf972706e3260c4baf78",
+      "mode": "100644"
+    },
+    "scripts/run_h102_sdk1_iio_rx.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "b55cdd341d3f8c48a7848e3f9a1df1b10a4d63694cf51bb1432d04738e5cdbb9",
+      "source_blob": "4cdcc3aafcd9627451441ceec34d49f51e19522c",
+      "mode": "100644"
+    },
+    "tests/conftest.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "8fad13f70039ff20a24945c980f44c620f6a5c74cfe5f64966e2b4c0411a9c53",
+      "source_blob": "1681b4b1953b648b318fc37835a44bd37a122675",
+      "mode": "100644"
+    },
+    "tests/fixtures/h102-built-in-sdk1-presets.json": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "91c85ab2d70d3f147cdd915d6969a1d636bf1613af5f0283b810c934d23cb979",
+      "source_blob": "7747d194ce7cb9ee126a7c9ed3acfe06773a8879",
+      "mode": "100644"
+    },
+    "tests/test_boot_checks.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "5b6a230f736fe9630c236d4f3de22accd3cdad6e26910984489a34cdf2f86e4b",
+      "source_blob": "72b257a7ba8e29a88c4fe9b2dbe7299f1acaa8db",
+      "mode": "100644"
+    },
+    "tests/test_calibration_wait.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "fb8b0d337a48c5b5dce4b9ad2ddd633c2961493636483500d6bf846b9ae20362",
+      "source_blob": "536237e1f42ebc8046a2fdeed43a29007cb8b645",
+      "mode": "100644"
+    },
+    "tests/test_connect_snapshot.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "86e32361614806a38809b571d43521938f747160dfcfc2e99942ddbf5386c86e",
+      "source_blob": "d76e294f342e90e1c8b42036bc8d055d3294be2d",
+      "mode": "100644"
+    },
+    "tests/test_control_ready.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "800d44fec598dbacbfa980df602c4f8f8f932d6dbe7a3e2cae39d87604017827",
+      "source_blob": "206e2f2329134ede8e06da3da425715a1bee0aac",
+      "mode": "100644"
+    },
+    "tests/test_fast_capture.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "a752aa90674d4ea65698fd6b009a8b9df94aef8297f002af2d11a1af086e2c8d",
+      "source_blob": "9dd3cb8de4ce01e98f815ec562e73b6b69025600",
+      "mode": "100644"
+    },
+    "tests/test_gui.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "700fe75142886d9cbaaa8d56c28aab26588d183d85101c5a058016ba013725a1",
+      "source_blob": "46e6d0426a50b82ea9b89144002c1c8e1034420a",
+      "mode": "100644"
+    },
+    "tests/test_i18n.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "1feefee2977fb223cf12b79ff1fec3c0562362697265d5b09e72efc2f0e65640",
+      "source_blob": "059ab421433a9d1fc5191d3a34f9d87bb759b9e3",
+      "mode": "100644"
+    },
+    "tests/test_idle_tune.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "84438ce7dac7cb328adebf228ef3fb3e6071e3ff49d8e4e37e6713f05c8608eb",
+      "source_blob": "f15a7ab78a784ea8b7954a5b941a71481f1a08db",
+      "mode": "100644"
+    },
+    "tests/test_instrument_ui.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "b504ce3a18402a49263c9164fc1b74624fcede065f8a4b4aac4bb817dee871e1",
+      "source_blob": "c4cd30a746d4d56b5787d0ca65364fe1f0ce3612",
+      "mode": "100644"
+    },
+    "tests/test_live_sweep.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "c2a129808361b12e58cb1d1d29dd1b1c4477c9188249c3e50cab7881907f742b",
+      "source_blob": "2b00a73d0a132c78213dac2ed9f343221b1f0daa",
+      "mode": "100644"
+    },
+    "tests/test_model.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "926efadaae9224ef241b195d0180a5497b59ea7a260ae31a14ac6cfee311e8b1",
+      "source_blob": "b2d08e4b39c5e663755c9f56e95fe0e4069d6657",
+      "mode": "100644"
+    },
+    "tests/test_overflow_abi_cap3.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "3c08cf555e3dc317fbb110656f3373d1ac2b4f43b10ac6752941a4a3089d6d67",
+      "source_blob": "3beadb4643b56c7b0afc4f948a228abd8a2e804f",
+      "mode": "100644"
+    },
+    "tests/test_radio.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "3d822f6ddcc56625b881ae48c2c4ceaf75cb3a1c0cd42d8283c47cb0dd1d938d",
+      "source_blob": "1c99519b3beb1bc784beeb607b852064859d279c",
+      "mode": "100644"
+    },
+    "tests/test_recording.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "7988e7fa78f646b0f9baec699347c7b20f7c5647770d5c7ce67776c5805d3bb2",
+      "source_blob": "e020a7a2f190b219b11a4e65d28b45bd88c76c52",
+      "mode": "100644"
+    },
+    "tests/test_refine.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "91f8a9283a0759485d05ce579a5826490b9255699d75be184f41f8ccffae97e0",
+      "source_blob": "14c241d4d1466484708beaeaddbc1e280da52dbb",
+      "mode": "100644"
+    },
+    "tests/test_smooth_tune.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "bc0c3b8d1e87be598c4943e406cde2d2f65d98b65357a0d43a2aebafb7758e6f",
+      "source_blob": "2f8208c3cb7ffa82bfc36c75655a3f6f356de1fe",
+      "mode": "100644"
+    },
+    "tests/test_tx.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "86e7a2e7f0d6214118bbe09664378adafc24db99ba3536f337978112f5f8490e",
+      "source_blob": "c67c892855873e78c6fc3bd52d000f5d57839ab3",
+      "mode": "100644"
+    },
+    "tests/test_tx_warm.py": {
+      "source_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+      "source_sha256": "32a72e7f37030506b5c845672d65e8a14e099ceb5a6451ee4dc8c85a16f0a4d9",
+      "source_blob": "07200478d6b1849b2a106b55395812aca248361d",
+      "mode": "100644"
+    }
+  },
+  "exclusions": [
+    {
+      "path": "tests/test_acceptance_scope.py",
+      "reason": "Depends on internal historical hardware campaign validator and receipts; retained unchanged in internal source, outside standalone English distribution."
+    }
+  ],
+  "additional_files": {
+    "h102_control/source_identity.py": "Reviewed LogicRF exact host-to-installed-helper adapter, shared with gr-logicrf English delivery.",
+    "h102_control/installed-helpers.json": "Five original source pins and translated local SHA-256 identities.",
+    "h102_iio_demo/translations/zh_CN.json": "Original Chinese UI labels retained behind canonical English message keys.",
+    "scripts/check_distribution.py": "Offline source manifest, language, import, syntax and link validation.",
+    "tests/test_source_identity.py": "Exact hash mappings, edited/unknown rejection preservation and client lock."
+  },
+  "explicit_nontranslation_changes": [
+    "English first-launch/fallback language; saved preference preserved",
+    "Canonical English template keys with Chinese resource lookup and membership-based static capture",
+    "Native Chinese language selector label loaded from locale resource",
+    "Exact local hash mapping to unchanged installed-device helper requirements",
+    "Empty initial device address instead of a development-host IP",
+    "Standalone venv or H102_GUI_PYTHON instead of internal workspace fallback",
+    "Model-worker timeout extended for explicit-stop test; historical hardware campaign test omitted"
+  ]
+}
