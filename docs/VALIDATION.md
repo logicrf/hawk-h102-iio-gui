@@ -25,3 +25,13 @@ Ordinary operation uses the fixed device-control API and libiio 0.x. It does not
 No device, RF, USB, SD-card, cold-boot or long-duration acceptance was run for this English packaging checkpoint. Existing hardware results keep their original versions and test windows. The internal hardware campaign validator and its receipt-scope test are outside the standalone source package.
 
 The aggregate application admission budget is 64 MB/s for Ethernet IQ16. Device reconfiguration may exceed 20 seconds. Ordinary IQ plots do not prove exact lost-sample count; strict recording checks device overflow and full file writes for the actual window. Refer to the matching firmware release for RF and timing limits.
+
+
+## Source packaging revision r2
+
+The original r1 source checker treated a locally installed root `.venv` as package
+content, so the documented post-install source check failed on a virtual-environment
+symlink. Revision r2 excludes that one local dependency directory. Packaged source
+hashes, unlisted source files and symlinks outside it are still checked. Dependency
+consistency is a separate `pip check`. Application files, protocol identities and
+device requirements are unchanged. This correction does not add hardware qualification.

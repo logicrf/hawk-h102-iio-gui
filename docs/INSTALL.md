@@ -33,3 +33,7 @@ QT_QPA_PLATFORM=offscreen .venv/bin/python -m pytest tests -q
 ```
 
 These checks use model sessions and temporary files. They do not start RF, write an SD card or establish hardware qualification.
+
+The source checker verifies the packaged files and ignores the local root `.venv`,
+Git metadata and Python/test caches. It does not verify installed third-party
+dependencies. Run `.venv/bin/python -m pip check` separately for dependency consistency.

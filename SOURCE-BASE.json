@@ -8,11 +8,12 @@
   "full_source_export": true,
   "github_synchronized": false,
   "firmware_modified": false,
-  "release_version": "0.8.0-source-en-r1",
+  "release_version": "0.8.0-source-en-r2",
   "source_notice": "Reviewed standalone host GUI export; device services and vendor SDKs remain separate",
   "default_language": "en",
   "supported_languages": [
     "en",
     "zh_CN"
-  ]
+  ],
+  "packaging_revision": "Root .venv exclusion in source-only verification; application and device requirements unchanged"
 }

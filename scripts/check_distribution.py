@@ -10,8 +10,8 @@
 @architect  LogicRF
 @email      info@logicrf.com
 @website    https://www.logicrf.com
-@version    1.0.0
-@date       2026-10-20
+@version    1.0.1
+@date       2026-10-21
 """
 from __future__ import annotations
 
@@ -33,10 +33,16 @@ DEVICE_MODULES = {"h102_profile_config", "h102_iio_rx_lease", "h102_iio_owner_lo
 
 
 def files() -> dict[str, Path]:
-    """Return package files while ignoring only Git metadata and Python bytecode caches."""
+    """Return source files, excluding metadata, caches and the documented root venv.
+
+    The root .venv is separately installed host software, never source-package
+    content. Other files and symlinks remain subject to exact manifest checks.
+    """
     result = {}
     for path in ROOT.rglob("*"):
         relative = path.relative_to(ROOT)
+        if relative.parts[0] == ".venv":
+            continue
         if any(part in {".git", "__pycache__", ".pytest_cache"} for part in relative.parts):
             continue
         if path.is_symlink():

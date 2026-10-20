@@ -353,6 +353,7 @@
     "Exact local hash mapping to unchanged installed-device helper requirements",
     "Empty initial device address instead of a development-host IP",
     "Standalone venv or H102_GUI_PYTHON instead of internal workspace fallback",
-    "Model-worker timeout extended for explicit-stop test; historical hardware campaign test omitted"
+    "Model-worker timeout extended for explicit-stop test; historical hardware campaign test omitted",
+    "Packaging r2: source verification excludes the documented root .venv; all other source membership, SHA and symlink checks retained"
   ]
 }

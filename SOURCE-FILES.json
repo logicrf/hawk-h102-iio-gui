@@ -19,20 +19,20 @@
       "sha256": "31ee7491113aa79925fe3b54375ec228c88fdd8088f6da7703d6901b2cb3f34b"
     },
     "SOURCE-BASE.json": {
-      "bytes": 561,
-      "sha256": "c2a10a28ae6875730f4aa6fdc82699c22090192a98334568ac72f7907c54df9d"
+      "bytes": 684,
+      "sha256": "a7987044a83dd142cb70a195815427784e452d15b16e121044871190bd3071be"
     },
     "SOURCE-MAP.json": {
-      "bytes": 17457,
-      "sha256": "9bfceb4a197f9d5777bcaa96fd55ffefec15e4011a31c7a72cbd4ef543f59cc5"
+      "bytes": 17595,
+      "sha256": "1ef44e32c1cc96a19fcae68840541271e0dbbf19aa703792baa75a1a24aab1f2"
     },
     "assets/brand/logicrf-logo.svg": {
       "bytes": 462,
       "sha256": "a14e54718cfdd68dfaf9162cb0a7ccea41aa357c7c26a70de90b0983c7388749"
     },
     "docs/INSTALL.md": {
-      "bytes": 1927,
-      "sha256": "6a231541c8f4f77c8ac1d342ef3ace44ea555f006c61df3aee428d9313b47c0b"
+      "bytes": 2178,
+      "sha256": "030204dad5a171dc2e057931b8e51fe8fad3fd53913c339a9f3b1d1a28082bf2"
     },
     "docs/MAINTAINING.md": {
       "bytes": 1395,
@@ -43,8 +43,8 @@
       "sha256": "9d931fa67e827ea01c6dcc5fe90b6f7c5638acbab1a6c05ad33fedd1b40531b9"
     },
     "docs/VALIDATION.md": {
-      "bytes": 2791,
-      "sha256": "1ace3b6b1ca4a37cf61d4eae55602eb2d11d008074412c7c3740dd69a2211e55"
+      "bytes": 3331,
+      "sha256": "2ef0261e15d2510dbb81bbd75bfaff00a4ddd0f31e76a242a0c2d032a1112ffe"
     },
     "docs/h102-control-api.lock.json": {
       "bytes": 1550,
@@ -179,8 +179,8 @@
       "sha256": "6e5e300014578a965fbeea052fd5598b159c11360abc1d19f6691e98f31941dd"
     },
     "scripts/check_distribution.py": {
-      "bytes": 5712,
-      "sha256": "291e640daa4d57e2796efac8cafad61b7756fe3184088f8bb3617369e4623c38"
+      "bytes": 5934,
+      "sha256": "6854e962659e43163c12154cf8943f1b499b774f97892c9f19d95424766750e6"
     },
     "scripts/h102_iio_finite.py": {
       "bytes": 7274,
