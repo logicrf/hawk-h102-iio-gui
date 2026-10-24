@@ -24,7 +24,7 @@
     },
     "SOURCE-MAP.json": {
       "bytes": 19186,
-      "sha256": "29dde020dadf321e01b5fca234957e607f62c7d07d146e47811151122d7921bf"
+      "sha256": "d013d5899368b3c915386eebc9531da06345e57bceb43bbdba2411c682aa7d7a"
     },
     "assets/brand/logicrf-logo.svg": {
       "bytes": 462,
@@ -43,8 +43,8 @@
       "sha256": "9d931fa67e827ea01c6dcc5fe90b6f7c5638acbab1a6c05ad33fedd1b40531b9"
     },
     "docs/VALIDATION.md": {
-      "bytes": 4328,
-      "sha256": "2c248880ab9059c21825053e81fa9c4e87eaac5da986c0cecd25ba40fe7667c9"
+      "bytes": 4327,
+      "sha256": "e1ebc6ae5cb5646c8842b59bba95c299f473056b416a1f75eae4bce4d7e5b7c8"
     },
     "docs/h102-control-api.lock.json": {
       "bytes": 1550,

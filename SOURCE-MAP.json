@@ -376,7 +376,7 @@
       "source_path": "docs/CLEAN-HOST-VALIDATION-20261024.md",
       "source_sha256": "c0280c9322f8c9fee133a20942d84d54b98fc3d1f7c1e1907963936c8aea24f6",
       "source_blob": "2e597a7469ecec334a40b1f72f35e49538920f47",
-      "output_sha256": "2c248880ab9059c21825053e81fa9c4e87eaac5da986c0cecd25ba40fe7667c9"
+      "output_sha256": "e1ebc6ae5cb5646c8842b59bba95c299f473056b416a1f75eae4bce4d7e5b7c8"
     },
     "tests/conftest.py": {
       "source_commit": "b84a3c3ff698ebd1d054fb08aa71013b935b60e9",

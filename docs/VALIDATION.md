@@ -42,4 +42,3 @@ Ubuntu 22.04 x86_64 / Python 3.10 was checked with a separate ordinary user, hom
 The source checker, CLI entry, native XCB window, English default, language switching and normal window closure passed. The test maintenance checkout releases closed, idle windows between cases sharing one QApplication; its 129 offline tests passed. It retains active workers for diagnostics and changes neither application code, assertions nor timeouts. Original failures remain in the development evidence.
 
 These host checks did not connect to an H102 or qualify RF, configuration coverage or continuous recording. Existing release archives and firmware remain unchanged; this installation/test maintenance update follows the source-en-r2 baseline.
-
