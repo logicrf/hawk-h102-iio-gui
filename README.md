@@ -8,7 +8,7 @@ The interface starts in English and supports live switching to Simplified Chines
 
 1. Install the [host prerequisites](docs/INSTALL.md).
 2. Ask your administrator to install matching H102 control services on the device. The base Kuiper 1.2.0 image alone does not include later IP-only control add-ons.
-3. Run `./launch.sh --host DEVICE_IP`, then connect and read back the active configuration.
+3. Run `bash ./launch.sh --host DEVICE_IP`, then connect and read back the active configuration.
 4. Start with 8 MSPS / 4 MHz and RX1. Apply the profile before starting acquisition.
 
 Read the [user guide](docs/USER-GUIDE.md) for recording, tuning, sweep and TX controls.

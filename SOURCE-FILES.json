@@ -15,24 +15,24 @@
       "sha256": "29471279667535b2bb4fcc1c9d5638b125bc8d1dff544878c4ea4ba1001fd67a"
     },
     "README.md": {
-      "bytes": 1590,
-      "sha256": "31ee7491113aa79925fe3b54375ec228c88fdd8088f6da7703d6901b2cb3f34b"
+      "bytes": 1595,
+      "sha256": "66f6c68041c770b3742f806ba53410811dfc4846d0758b4cad1d886a2142abdf"
     },
     "SOURCE-BASE.json": {
-      "bytes": 684,
-      "sha256": "a7987044a83dd142cb70a195815427784e452d15b16e121044871190bd3071be"
+      "bytes": 1005,
+      "sha256": "4b43af24aeafea4307c5cb186d6c080d9d03010b46e11cf86e7d8f74ca162edf"
     },
     "SOURCE-MAP.json": {
-      "bytes": 17595,
-      "sha256": "1ef44e32c1cc96a19fcae68840541271e0dbbf19aa703792baa75a1a24aab1f2"
+      "bytes": 19186,
+      "sha256": "29dde020dadf321e01b5fca234957e607f62c7d07d146e47811151122d7921bf"
     },
     "assets/brand/logicrf-logo.svg": {
       "bytes": 462,
       "sha256": "a14e54718cfdd68dfaf9162cb0a7ccea41aa357c7c26a70de90b0983c7388749"
     },
     "docs/INSTALL.md": {
-      "bytes": 2178,
-      "sha256": "030204dad5a171dc2e057931b8e51fe8fad3fd53913c339a9f3b1d1a28082bf2"
+      "bytes": 2636,
+      "sha256": "363394ba5729f57ebab0a5fa4316c947c18af3be90c839ced7b5ed62ead18710"
     },
     "docs/MAINTAINING.md": {
       "bytes": 1395,
@@ -43,8 +43,8 @@
       "sha256": "9d931fa67e827ea01c6dcc5fe90b6f7c5638acbab1a6c05ad33fedd1b40531b9"
     },
     "docs/VALIDATION.md": {
-      "bytes": 3331,
-      "sha256": "2ef0261e15d2510dbb81bbd75bfaff00a4ddd0f31e76a242a0c2d032a1112ffe"
+      "bytes": 4328,
+      "sha256": "2c248880ab9059c21825053e81fa9c4e87eaac5da986c0cecd25ba40fe7667c9"
     },
     "docs/h102-control-api.lock.json": {
       "bytes": 1550,
@@ -195,8 +195,8 @@
       "sha256": "99630fc6d51baf90f865194d00a49fc14aed40c774734ca92fa9f65c53558f58"
     },
     "tests/conftest.py": {
-      "bytes": 551,
-      "sha256": "3496958c0dcd27879201a0a98cfeed17b3ebe6e732ef78bf7958191daef6b96c"
+      "bytes": 2220,
+      "sha256": "93383f6a97af3e1de95d522d27926f3dea22fd9b3ceebc365c2bc5140ee85e57"
     },
     "tests/fixtures/h102-built-in-sdk1-presets.json": {
       "bytes": 4493,

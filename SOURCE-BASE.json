@@ -15,5 +15,13 @@
     "en",
     "zh_CN"
   ],
-  "packaging_revision": "Root .venv exclusion in source-only verification; application and device requirements unchanged"
+  "packaging_revision": "Root .venv exclusion in source-only verification; application and device requirements unchanged",
+  "maintenance_update": {
+    "date": "2026-10-24",
+    "development_commit": "b84a3c3ff698ebd1d054fb08aa71013b935b60e9",
+    "scope": "Native host runtime installation guidance and idle Qt test-window disposal",
+    "release_assets_unchanged": true,
+    "application_code_unchanged": true,
+    "offline_tests": 129
+  }
 }

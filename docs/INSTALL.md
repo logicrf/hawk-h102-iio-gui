@@ -7,11 +7,17 @@ Use a Linux desktop with Python 3.10 or later, Qt-compatible graphics drivers an
 On an Ubuntu host with libiio available from the distribution:
 
 ```bash
-sudo apt install python3-venv libiio0
+sudo apt install python3-venv libiio0 libgl1 libegl1 libopengl0 \
+  libglib2.0-0 libfontconfig1 libdbus-1-3 libxkbcommon-x11-0 \
+  libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 \
+  libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxcb-shape0 \
+  libx11-xcb1 fonts-noto-cjk
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
-./launch.sh --host DEVICE_IP
+bash ./launch.sh --host DEVICE_IP
 ```
+
+Run from a graphical desktop session. Python dependency checks do not validate the Qt/OpenGL/XCB system libraries. Use `bash ./launch.sh` because ZIP extraction may not preserve executable permissions.
 
 `requirements.lock` records the development environment. `requirements.txt` supplies compatible version ranges. `H102_GUI_PYTHON=/path/to/python` selects an existing environment. Windows/macOS installation is not qualified by this delivery.
 

@@ -35,3 +35,11 @@ symlink. Revision r2 excludes that one local dependency directory. Packaged sour
 hashes, unlisted source files and symlinks outside it are still checked. Dependency
 consistency is a separate `pip check`. Application files, protocol identities and
 device requirements are unchanged. This correction does not add hardware qualification.
+# Host installation and test isolation
+
+Ubuntu 22.04 x86_64 / Python 3.10 was checked with a separate ordinary user, home directory and virtual environment. Install the Qt/OpenGL/XCB runtime libraries listed in [Installation](INSTALL.md) as well as the Python requirements. Python dependency checks alone do not verify those native libraries.
+
+The source checker, CLI entry, native XCB window, English default, language switching and normal window closure passed. The test maintenance checkout releases closed, idle windows between cases sharing one QApplication; its 129 offline tests passed. It retains active workers for diagnostics and changes neither application code, assertions nor timeouts. Original failures remain in the development evidence.
+
+These host checks did not connect to an H102 or qualify RF, configuration coverage or continuous recording. Existing release archives and firmware remain unchanged; this installation/test maintenance update follows the source-en-r2 baseline.
+

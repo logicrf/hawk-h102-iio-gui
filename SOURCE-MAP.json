@@ -355,5 +355,35 @@
     "Standalone venv or H102_GUI_PYTHON instead of internal workspace fallback",
     "Model-worker timeout extended for explicit-stop test; historical hardware campaign test omitted",
     "Packaging r2: source verification excludes the documented root .venv; all other source membership, SHA and symlink checks retained"
-  ]
+  ],
+  "maintenance_update_20261024": {
+    "README.md": {
+      "source_commit": "b84a3c3ff698ebd1d054fb08aa71013b935b60e9",
+      "source_path": "README.md",
+      "source_sha256": "6d4192732e611ff1a8ba07b96dc3af357ec8aa0ba1115c99c8a41127b426e222",
+      "source_blob": "597b1e8256bd96f0457437b31facc7b3923a4b4b",
+      "output_sha256": "66f6c68041c770b3742f806ba53410811dfc4846d0758b4cad1d886a2142abdf"
+    },
+    "docs/INSTALL.md": {
+      "source_commit": "b84a3c3ff698ebd1d054fb08aa71013b935b60e9",
+      "source_path": "README.md",
+      "source_sha256": "6d4192732e611ff1a8ba07b96dc3af357ec8aa0ba1115c99c8a41127b426e222",
+      "source_blob": "597b1e8256bd96f0457437b31facc7b3923a4b4b",
+      "output_sha256": "363394ba5729f57ebab0a5fa4316c947c18af3be90c839ced7b5ed62ead18710"
+    },
+    "docs/VALIDATION.md": {
+      "source_commit": "b84a3c3ff698ebd1d054fb08aa71013b935b60e9",
+      "source_path": "docs/CLEAN-HOST-VALIDATION-20261024.md",
+      "source_sha256": "c0280c9322f8c9fee133a20942d84d54b98fc3d1f7c1e1907963936c8aea24f6",
+      "source_blob": "2e597a7469ecec334a40b1f72f35e49538920f47",
+      "output_sha256": "2c248880ab9059c21825053e81fa9c4e87eaac5da986c0cecd25ba40fe7667c9"
+    },
+    "tests/conftest.py": {
+      "source_commit": "b84a3c3ff698ebd1d054fb08aa71013b935b60e9",
+      "source_path": "tests/conftest.py",
+      "source_sha256": "b0b232e4cec7b04665d3a06368c770f2483dab5d4b292cefe0a19d01699be5f5",
+      "source_blob": "9e81b198c4b794a52ff3a314da7c289fdce94c82",
+      "output_sha256": "93383f6a97af3e1de95d522d27926f3dea22fd9b3ceebc365c2bc5140ee85e57"
+    }
+  }
 }
