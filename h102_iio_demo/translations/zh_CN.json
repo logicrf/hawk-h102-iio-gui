@@ -24,7 +24,7 @@
   "Select a loop IQ file": "请选择循环IQ文件",
   "TX control busy": "发射控制忙",
   "Could not save language preference; current selection remains active": "语言偏好保存失败；本次切换仍有效",
-  "LogicRF Hawk H102 · IIO RX / TX / Sweep · v0.8 candidate": "LogicRF Hawk H102 · IIO RX / TX / 扫频 · v0.8 候选",
+  "LogicRF Hawk H102 · IIO RX / TX / Sweep · v0.8.0": "LogicRF Hawk H102 · IIO RX / TX / 扫频 · v0.8.0",
   "Gigabit IIO  ·  RX / TX": "千兆网 IIO  ·  RX / TX",
   "▶ Start RX": "▶ 开始接收",
   "■ Stop RX": "■ 停止接收",

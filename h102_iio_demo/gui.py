@@ -77,7 +77,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.last_stats_refresh = 0.0
         self.ui_metrics = dict(refresh_count=0,max_refresh_seconds=0.0,first_visible_seconds=None,plotted_frames=0,last_visible_seconds=None)
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint,True)
-        self.setWindowTitle("LogicRF Hawk H102 · IIO RX / TX / Sweep · v0.8 candidate")
+        self.setWindowTitle("LogicRF Hawk H102 · IIO RX / TX / Sweep · v0.8.0")
         self.resize(1160, 880)
         self._build(host)
         self.chrome=WindowChrome(self);self.setMenuWidget(self.chrome)

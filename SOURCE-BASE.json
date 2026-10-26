@@ -8,14 +8,14 @@
   "full_source_export": true,
   "github_synchronized": false,
   "firmware_modified": false,
-  "release_version": "0.8.0-source-en-r2",
+  "release_version": "0.8.0-source-en-r3",
   "source_notice": "Reviewed standalone host GUI export; device services and vendor SDKs remain separate",
   "default_language": "en",
   "supported_languages": [
     "en",
     "zh_CN"
   ],
-  "packaging_revision": "Root .venv exclusion in source-only verification; application and device requirements unchanged",
+  "packaging_revision": "Stable window title and matching bilingual resources; acquisition logic and installed device requirements unchanged",
   "maintenance_update": {
     "date": "2026-10-24",
     "development_commit": "b84a3c3ff698ebd1d054fb08aa71013b935b60e9",
@@ -23,5 +23,12 @@
     "release_assets_unchanged": true,
     "application_code_unchanged": true,
     "offline_tests": 129
+  },
+  "release_title_update": {
+    "date": "2026-10-26",
+    "development_commit": "0c0ca7fb1380548d92e9af41f3092ddcbc488732",
+    "scope": "Window title and corresponding translation entries only",
+    "verification": "Native Qt first launch English, en/zh_CN/en title checks; no device access",
+    "acquisition_code_unchanged": true
   }
 }
