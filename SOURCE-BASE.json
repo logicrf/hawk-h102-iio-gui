@@ -4,11 +4,11 @@
   "development_commit": "1c5951e59396a389763e2c3256bbeac3021c446e",
   "delivery_branch": "github-en",
   "language": "English",
-  "status": "CANDIDATE_ENGLISH_PANEL_COMPATIBILITY",
+  "status": "STABLE_ENGLISH_PANEL_COMPATIBILITY",
   "full_source_export": true,
-  "github_synchronized": false,
+  "github_synchronized": true,
   "firmware_modified": false,
-  "release_version": "0.8.1-source-en-r1",
+  "release_version": "0.8.1",
   "source_notice": "Reviewed standalone host GUI export; device services and vendor SDKs remain separate",
   "default_language": "en",
   "supported_languages": [
@@ -33,7 +33,8 @@
   },
   "panel_update": {
     "scope": "Explicit admission of the panel d6 ADC ABI; acquisition algorithms and bilingual UI unchanged",
-    "firmware": "Kuiper1.2.1-rc1 or the matched panel1 incremental API",
-    "image_cold_boot": "NOT_RUN"
+    "firmware": "Kuiper 1.2.1 (internal1.2.1-rc2) or matched panel1 incremental API",
+    "image_cold_boot": "PASS_SCOPED_FIRST_UNIT_EXACT_IMAGE",
+    "verification_scope": "System compatibility only; GUI acquisition algorithms unchanged; no new full-profile/RF/UTC/second-unit qualification"
   }
 }

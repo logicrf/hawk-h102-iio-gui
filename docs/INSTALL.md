@@ -25,7 +25,7 @@ Run from a graphical desktop session. Python dependency checks do not validate t
 
 The device needs the matching H102 Kuiper system and fixed-operation control API, including the five reviewed native GUI helpers. Ordinary operation uses the device IP and control service on TCP 30432, plus libiio networking. Installation and maintenance are administrator tasks; there is no automatic SSH or password fallback.
 
-This application does not install a board service. A missing or incompatible service must be upgraded separately. The local API lock and installed-helper identity manifest describe exact requirements; translating host sources does not change the accepted board helper bytes.
+Kuiper 1.2.1 already includes the matching board service. This application does not install a board service. A missing or incompatible service must be upgraded separately. The local API lock and installed-helper identity manifest describe exact requirements; translating host sources does not change the accepted board helper bytes.
 
 ## Language
 

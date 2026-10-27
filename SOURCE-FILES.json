@@ -15,32 +15,32 @@
       "sha256": "29471279667535b2bb4fcc1c9d5638b125bc8d1dff544878c4ea4ba1001fd67a"
     },
     "README.md": {
-      "bytes": 1905,
-      "sha256": "40a37259f0de9d1e2ebc1066b7781291d3a657a351dc08463c77cd63b0cf1200"
+      "bytes": 1928,
+      "sha256": "3d718303f2087823417f6eecb163eb35d732ad9d86a49d0d6430213265d4f639"
     },
     "SOURCE-BASE.json": {
-      "bytes": 1610,
-      "sha256": "761a6c2166a97d6b760013badeadadbf40888da9717124284307742fd3e3bd4b"
+      "bytes": 1780,
+      "sha256": "6f8adb45706f4cdad23ae9713e6c479df51365b175a3e029baec265d6895363c"
     },
     "SOURCE-MAP.json": {
-      "bytes": 20418,
-      "sha256": "e66128ad4d39e2089207a6cb23468bab118731d9310f9d425e2fbc522715c608"
+      "bytes": 21056,
+      "sha256": "bb7d46c1072b4edd568270b0b37aabb5b17f737d1e76e9bcace7ed4e318fa9f7"
     },
     "assets/brand/logicrf-logo.svg": {
       "bytes": 462,
       "sha256": "a14e54718cfdd68dfaf9162cb0a7ccea41aa357c7c26a70de90b0983c7388749"
     },
     "docs/INSTALL.md": {
-      "bytes": 2636,
-      "sha256": "363394ba5729f57ebab0a5fa4316c947c18af3be90c839ced7b5ed62ead18710"
+      "bytes": 2694,
+      "sha256": "31c7145c09b5564bda3de4f2874283230cf5c97af01377bb1723d34c5c80ca23"
     },
     "docs/MAINTAINING.md": {
       "bytes": 1395,
       "sha256": "a269a3d5690fdc15cb34726c6719982ca2b4b677c1cc7bbae7a01b33a5248072"
     },
     "docs/PANEL-COMPATIBILITY.md": {
-      "bytes": 1107,
-      "sha256": "9b4e3bbaef2be82b4a9086c466128bb073e39a615a841091b142f088b3831c70"
+      "bytes": 1245,
+      "sha256": "76cac0d3a3d586c94baed6d47e70dae3ae694442c7dc777f2aceb70878f9beaf"
     },
     "docs/USER-GUIDE.md": {
       "bytes": 3080,

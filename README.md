@@ -11,7 +11,7 @@ The interface starts in English and supports live switching to Simplified Chines
 ## Get started
 
 1. Install the [host prerequisites](docs/INSTALL.md).
-2. Use the matching device-control service: it is included in Kuiper 1.2.1-rc1, or supplied by the reviewed panel1 incremental installation. The unmodified 1.2.0 SD image needs its separate service update.
+2. Use the matching device-control service: it is included in Kuiper 1.2.1 (internal build 1.2.1-rc2), or supplied by the reviewed panel1 incremental installation. The unmodified 1.2.0 SD image needs its separate service update.
 3. Run `bash ./launch.sh --host DEVICE_IP`, then connect and read back the active configuration.
 4. Start with 8 MSPS / 4 MHz and RX1. Apply the profile before starting acquisition.
 

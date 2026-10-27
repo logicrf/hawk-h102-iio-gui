@@ -405,5 +405,16 @@
       "english_sha256": "31fac17a4ba7af17b4f592b39634c7b1db6eee4c7cd8bb470c83e5a89525debb",
       "modification": "Reviewed panel ABI/version update; retain translated documentation and diagnostics"
     }
+  },
+  "stable_documentation_update": {
+    "source_repository": "logicrf/hawk-h102-linux",
+    "source_commit": "8e224c841cba0564670185b5c019ac9d6c859730",
+    "source_path": "docs/receipts/20261027-1.2.1-exact-image-acceptance.json",
+    "scope": "System compatibility and installation wording only; GUI source unchanged",
+    "output_hashes": {
+      "README.md": "3d718303f2087823417f6eecb163eb35d732ad9d86a49d0d6430213265d4f639",
+      "docs/INSTALL.md": "31c7145c09b5564bda3de4f2874283230cf5c97af01377bb1723d34c5c80ca23",
+      "docs/PANEL-COMPATIBILITY.md": "76cac0d3a3d586c94baed6d47e70dae3ae694442c7dc777f2aceb70878f9beaf"
+    }
   }
 }
