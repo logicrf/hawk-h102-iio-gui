@@ -15,16 +15,16 @@
       "sha256": "29471279667535b2bb4fcc1c9d5638b125bc8d1dff544878c4ea4ba1001fd67a"
     },
     "README.md": {
-      "bytes": 1595,
-      "sha256": "66f6c68041c770b3742f806ba53410811dfc4846d0758b4cad1d886a2142abdf"
+      "bytes": 1905,
+      "sha256": "40a37259f0de9d1e2ebc1066b7781291d3a657a351dc08463c77cd63b0cf1200"
     },
     "SOURCE-BASE.json": {
-      "bytes": 1363,
-      "sha256": "16ad7fa1f4a454bf8c1f703fb52ef100c3fd54f9aa8edeaeace949ff2c00a515"
+      "bytes": 1610,
+      "sha256": "761a6c2166a97d6b760013badeadadbf40888da9717124284307742fd3e3bd4b"
     },
     "SOURCE-MAP.json": {
-      "bytes": 19186,
-      "sha256": "d013d5899368b3c915386eebc9531da06345e57bceb43bbdba2411c682aa7d7a"
+      "bytes": 20418,
+      "sha256": "e66128ad4d39e2089207a6cb23468bab118731d9310f9d425e2fbc522715c608"
     },
     "assets/brand/logicrf-logo.svg": {
       "bytes": 462,
@@ -38,6 +38,10 @@
       "bytes": 1395,
       "sha256": "a269a3d5690fdc15cb34726c6719982ca2b4b677c1cc7bbae7a01b33a5248072"
     },
+    "docs/PANEL-COMPATIBILITY.md": {
+      "bytes": 1107,
+      "sha256": "9b4e3bbaef2be82b4a9086c466128bb073e39a615a841091b142f088b3831c70"
+    },
     "docs/USER-GUIDE.md": {
       "bytes": 3080,
       "sha256": "9d931fa67e827ea01c6dcc5fe90b6f7c5638acbab1a6c05ad33fedd1b40531b9"
@@ -47,8 +51,8 @@
       "sha256": "e1ebc6ae5cb5646c8842b59bba95c299f473056b416a1f75eae4bce4d7e5b7c8"
     },
     "docs/h102-control-api.lock.json": {
-      "bytes": 1550,
-      "sha256": "b1b6fd15dd21d287f1e4a98534eb831a4d1d241f8d95c94b01ee6f7cb8741d36"
+      "bytes": 1654,
+      "sha256": "a33ea494b052e9ad4e695ae3d124da4a4180cc22b20c1f5fc1afe031ac19ff64"
     },
     "h102_control/__init__.py": {
       "bytes": 712,
@@ -67,8 +71,8 @@
       "sha256": "de11ba819f2cac316ed28a9baeb992861e7d8cf2462d5f730d55bd3ae2b64adb"
     },
     "h102_control/installed-helpers.json": {
-      "bytes": 1169,
-      "sha256": "b79d96d669559f47f0041808df52afd479550f1772953913fcda06b894cdb60c"
+      "bytes": 1389,
+      "sha256": "944b34ddf22ae8b16b1b9a1f66eabe28b51837a523f9136b76d9019d03a1ea8e"
     },
     "h102_control/protocol.py": {
       "bytes": 3625,
@@ -80,7 +84,7 @@
     },
     "h102_iio_demo/__init__.py": {
       "bytes": 96,
-      "sha256": "7cfa62dc09b1de0828c4043da4ce27cf1c58356d8de421725a137542d5e019db"
+      "sha256": "ed79a640843ed52b2c8fcd62875a2ac4e87a29feb5fe0159698d8b2fff593061"
     },
     "h102_iio_demo/__main__.py": {
       "bytes": 1488,
@@ -91,8 +95,8 @@
       "sha256": "ca601845a0792c49c6c723271d5843f185ba42847f588d4263780be174d57664"
     },
     "h102_iio_demo/board_capture.py": {
-      "bytes": 17470,
-      "sha256": "b86ed33de8df5833fe6e7f95bfff25c4b6b3c7f8726c45a36e6d16ddaf07887a"
+      "bytes": 17547,
+      "sha256": "21d0ebe582004e63505642c59e285212ac15cc1a0c3228d4e3f14b3623997cb4"
     },
     "h102_iio_demo/board_radio.py": {
       "bytes": 21418,
@@ -179,8 +183,8 @@
       "sha256": "6e5e300014578a965fbeea052fd5598b159c11360abc1d19f6691e98f31941dd"
     },
     "scripts/check_distribution.py": {
-      "bytes": 5934,
-      "sha256": "6854e962659e43163c12154cf8943f1b499b774f97892c9f19d95424766750e6"
+      "bytes": 5924,
+      "sha256": "19145c6949e587f767e9b71e0fbeb859540ad567d5c90d2ec347d9c3d4b61799"
     },
     "scripts/h102_iio_finite.py": {
       "bytes": 7274,
@@ -247,8 +251,8 @@
       "sha256": "c49e640bb6029f8feaeaec743e1489e14b2b5086fe7023ed3a398ef03397b0ae"
     },
     "tests/test_overflow_abi_cap3.py": {
-      "bytes": 4820,
-      "sha256": "f6054621ccbac39436bf49329ebdcc42b993db942e06d1a32e4037df91a752e1"
+      "bytes": 5072,
+      "sha256": "31fac17a4ba7af17b4f592b39634c7b1db6eee4c7cd8bb470c83e5a89525debb"
     },
     "tests/test_radio.py": {
       "bytes": 7330,

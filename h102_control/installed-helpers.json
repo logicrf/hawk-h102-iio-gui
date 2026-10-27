@@ -11,8 +11,8 @@
       "installed_sha256": "fd5dec1a90f33177f5cd2230a4fc6572c155fec8292eaa9f86040c8c082e0e33"
     },
     "board_capture.py": {
-      "local_sha256": "b86ed33de8df5833fe6e7f95bfff25c4b6b3c7f8726c45a36e6d16ddaf07887a",
-      "installed_sha256": "d1f30333f8fe58734396a22ed3040287a08aaaa0eca8d3ae3dd387b59eaa7360"
+      "local_sha256": "21d0ebe582004e63505642c59e285212ac15cc1a0c3228d4e3f14b3623997cb4",
+      "installed_sha256": "bb90c08be44a334cd9ce3f1d718dd2e2e0d46558df0a2d566c9a306afd238799"
     },
     "board_tx.py": {
       "local_sha256": "64a9ceeb140c955bb4a0fb1d00dd44a25870c2023dd6dc026e919ddaf9095108",
@@ -22,5 +22,10 @@
       "local_sha256": "04897c96b4c5dacb7f7e0bb565f9c01b2f0f8d527228b7eb2e1b4da7e9c4b313",
       "installed_sha256": "c2db6ed391c2c0df40ecdddbf936e70916b0a7bfeed1a85bed7616853304764d"
     }
+  },
+  "panel_update": {
+    "source_commit": "1c5951e59396a389763e2c3256bbeac3021c446e",
+    "bit_sha256": "d6a2412cd32c767b29f08b077f9ee3eae159a5bf1188417db243e55ab33e3eff",
+    "required_service": "0.1.0-ip36-panel1"
   }
 }

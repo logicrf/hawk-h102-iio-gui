@@ -44,8 +44,11 @@ class OverflowAbiTests(unittest.TestCase):
 
     def identity(self,bit):return dict(boot_pins={'/boot/h102_logicrf_master.bit':bit})
 
-    def test_both_exact_bits_preserve_window_checks(self):
-        self.assertEqual(len(capture.SUPPORTED_BIT_SHA256),2)
+    def test_supported_exact_bits_preserve_window_checks(self):
+        self.assertEqual(capture.SUPPORTED_BIT_SHA256, frozenset((
+            'd81b6988b5f52b2fe1e03a86ba23508d7096560a9a60e011fd17c71c199974aa',
+            'efa68686339a902c5aa6ffcd36db9f4e769b9dd5c796dcea75b6928f66fa33a2',
+            'd6a2412cd32c767b29f08b077f9ee3eae159a5bf1188417db243e55ab33e3eff')))
         for bit in sorted(capture.SUPPORTED_BIT_SHA256):
             with self.subTest(bit=bit),capture.OverflowGuard(self.hw,self.identity(bit)) as guard:
                 for channel in (1,2):

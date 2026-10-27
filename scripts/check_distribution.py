@@ -114,7 +114,7 @@ def verify() -> dict:
     return {"status": "FAIL" if errors else "PASS_SOURCE_PACKAGE_ONLY",
             "files": len(actual), "python_files": python_count,
             "markdown_files": markdown_count, "external_imports": sorted(optional_imports),
-            "device_services": "EXTERNAL_INSTALLED_REQUIREMENTS_UNCHANGED",
+            "device_services": "MATCHING_PANEL_SERVICE_REQUIRED",
             "board_only_external_modules": sorted(DEVICE_MODULES),
             "hardware": "NOT_RUN", "errors": errors}
 

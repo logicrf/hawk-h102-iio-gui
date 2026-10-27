@@ -9,7 +9,7 @@
     "h102_control/channel.py": "b2cf7d6fe91d5cf12b044a0d192348633782c48338c4b30927bd0b17503ac362",
     "h102_control/client.py": "2ebaac23e6472a9d919c1ff23f39c50f9d96b37a75ddcbc2214f6d63766228a1",
     "h102_control/compat.py": "de11ba819f2cac316ed28a9baeb992861e7d8cf2462d5f730d55bd3ae2b64adb",
-    "h102_control/installed-helpers.json": "b79d96d669559f47f0041808df52afd479550f1772953913fcda06b894cdb60c",
+    "h102_control/installed-helpers.json": "944b34ddf22ae8b16b1b9a1f66eabe28b51837a523f9136b76d9019d03a1ea8e",
     "h102_control/protocol.py": "92f2113f1c4e6a4de0bef4093cba5ec8e08ddcec1f522bff6f9fc273ff05b8a4",
     "h102_control/source_identity.py": "e1fe4f9678e0bfba26add0fbbd4c9a741a1dfb23b22b8e2ca9418f50e89f1b56"
   },
@@ -20,5 +20,6 @@
     "h102_control/compat.py": "c7655b945ed02b4a146ace8a0cf8cc1afdae7045fb21ef063ec9023e6e133da0",
     "h102_control/protocol.py": "42c1eaba2b23833b9aa1452482f674deb080ac92821d8b6adf94fc48e378e459"
   },
-  "translation_note": "English client source hashes are distinct from unchanged installed device-helper requirements."
+  "translation_note": "English client source hashes are distinct from unchanged installed device-helper requirements.",
+  "panel_update": "Reviewed helper map for the exact panel d6 board source; client protocol unchanged"
 }

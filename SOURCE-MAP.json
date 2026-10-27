@@ -385,5 +385,25 @@
       "source_blob": "9e81b198c4b794a52ff3a314da7c289fdce94c82",
       "output_sha256": "93383f6a97af3e1de95d522d27926f3dea22fd9b3ceebc365c2bc5140ee85e57"
     }
+  },
+  "panel_update": {
+    "h102_iio_demo/board_capture.py": {
+      "source_commit": "1c5951e59396a389763e2c3256bbeac3021c446e",
+      "source_sha256": "bb90c08be44a334cd9ce3f1d718dd2e2e0d46558df0a2d566c9a306afd238799",
+      "english_sha256": "21d0ebe582004e63505642c59e285212ac15cc1a0c3228d4e3f14b3623997cb4",
+      "modification": "Reviewed panel ABI/version update; retain translated documentation and diagnostics"
+    },
+    "h102_iio_demo/__init__.py": {
+      "source_commit": "1c5951e59396a389763e2c3256bbeac3021c446e",
+      "source_sha256": "ecf8408faa115f16778d6fe5619b6588d4c1915cb330383e5a618a146eba4788",
+      "english_sha256": "ed79a640843ed52b2c8fcd62875a2ac4e87a29feb5fe0159698d8b2fff593061",
+      "modification": "Reviewed panel ABI/version update; retain translated documentation and diagnostics"
+    },
+    "tests/test_overflow_abi_cap3.py": {
+      "source_commit": "1c5951e59396a389763e2c3256bbeac3021c446e",
+      "source_sha256": "e012deef5f2b52cb4af211f3b9d711bb2d20f34d59e8648e7bc6e2aa114859ae",
+      "english_sha256": "31fac17a4ba7af17b4f592b39634c7b1db6eee4c7cd8bb470c83e5a89525debb",
+      "modification": "Reviewed panel ABI/version update; retain translated documentation and diagnostics"
+    }
   }
 }

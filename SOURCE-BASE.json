@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "repository": "logicrf/hawk-h102-iio-gui",
-  "development_commit": "637a80cd2b9daec21741dd47d051067ce0ad8806",
+  "development_commit": "1c5951e59396a389763e2c3256bbeac3021c446e",
   "delivery_branch": "github-en",
   "language": "English",
-  "status": "OFFLINE_VERIFIED_ENGLISH_SOURCE",
+  "status": "CANDIDATE_ENGLISH_PANEL_COMPATIBILITY",
   "full_source_export": true,
   "github_synchronized": false,
   "firmware_modified": false,
-  "release_version": "0.8.0-source-en-r3",
+  "release_version": "0.8.1-source-en-r1",
   "source_notice": "Reviewed standalone host GUI export; device services and vendor SDKs remain separate",
   "default_language": "en",
   "supported_languages": [
@@ -30,5 +30,10 @@
     "scope": "Window title and corresponding translation entries only",
     "verification": "Native Qt first launch English, en/zh_CN/en title checks; no device access",
     "acquisition_code_unchanged": true
+  },
+  "panel_update": {
+    "scope": "Explicit admission of the panel d6 ADC ABI; acquisition algorithms and bilingual UI unchanged",
+    "firmware": "Kuiper1.2.1-rc1 or the matched panel1 incremental API",
+    "image_cold_boot": "NOT_RUN"
   }
 }
